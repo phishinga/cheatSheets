@@ -88,7 +88,14 @@ CommonSecurityLog
 // | extend IPCustomEntity = SourceIP
 ```
 
+### Watchlists 
+Watchlist is a great new feature which also allows you parse external data set, however this time you are uploading data directly to Azure Sentinel Workspace. Bellow is an example of query that displays security alerts of user entities that are defined in the watchlist.
 
-
+```
+let WATCHLIST_VARIABLE =_GetWatchlist('DEFINED_WATCHLIST_NAME');
+SecurityAlert
+| extend User_Account_ = tostring(parse_json(ExtendedProperties).["User Account"])
+| join WATCHLIST_VARIABLE on $left.User_Account_ == $right.userPrincipalName
+```
 
 
