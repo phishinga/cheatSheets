@@ -34,7 +34,9 @@ intitle:index.of "creds.txt"
 
 ### SQL
 
-```intext:connectionString & inurl:web & ext:config\```
+```
+intext:connectionString & inurl:web & ext:config\
+```
 
 ### FTP
 
