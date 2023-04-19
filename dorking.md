@@ -3,7 +3,7 @@
 
 You might have already heard of "Google dorking" or "Google hacking" before as it is a popular way to use profound Google search engine to the maximum. 
 Whether you search for specific document (let's say all PDF documents published by official European Commission web page with GDPR key word withing) 
-```site: ec.europa.eu filetype:pdf GDPR``` or wherher you search for some inspiration for your new password "login: ```*" "password= *" filetype:xls.```
+```site: ec.europa.eu filetype:pdf GDPR``` or wherher you search for some inspiration for your new password ```"login: *" "password= *" filetype:xls.```
 Google dorking is truly an amazing tool available at the end of your fingertips. 
 There are of course other search engines as DuckDuckGo (for example) where you can play around, 
 just be ware that the queries might be different. As there are thousands of possibilities what to search for, 
