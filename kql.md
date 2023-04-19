@@ -5,7 +5,7 @@
 This page is all about KQL functions to speed up analysis in Azure Sentinel. From simple every-day queries to more advanced alert correlations.
 
 
-### Basics
+### Basic queries
 ```
 | where TimeGenerated >= ago(90d)
 | where TimeGenerated between(datetime("2020-12-22 00:00:00") .. datetime("2020-12-22 08:00:00"))
