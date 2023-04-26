@@ -20,6 +20,8 @@
 
     $kubectl exec -i -t -n azure-vote azure-vote-back-797b558855-zv2mf -c azure-vote-back -- sh
 
-### Non-root container?
+### Root container?
 
     $kubectl exec -n azure-vote azure-vote-back-797b558855-zv2mf -c azure-vote-back -- sh -c "id"
+
+- More advanced scripts here: https://github.com/phishinga/scripts
