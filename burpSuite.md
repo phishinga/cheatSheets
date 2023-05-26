@@ -41,7 +41,7 @@ So how many collumns do we have?
 
 ' UNION SELECT username, password FROM users-- 
 ```
-- The payloads described use the double-dash comment sequence -- to comment out the remainder of the original query following the injection point. On MySQL, the double-dash sequence must be followed by a space. Alternatively, the hash character # can be used to identify a comment. 
+- The payloads described use the double-dash comment sequence ```--``` to comment out the remainder of the original query following the injection point. On MySQL, the double-dash sequence must be followed by a space. Alternatively, the hash character ```#``` can be used to identify a comment. 
 
 - [payloads](https://github.com/payloadbox/sql-injection-payload-list#generic-sql-injection-payloads)
 - [payloads2](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection)
