@@ -6,7 +6,9 @@ aka Notes from PortSwigger Academy
 - ```--``` comments out everything after
 
 ```
-'--  
+'--
+admin'--
+administrator'--
 '+OR+1=1--
 ' OR 1=1 --
 OR 1=1 --
