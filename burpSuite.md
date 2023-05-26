@@ -6,7 +6,7 @@ aka Notes from PortSwigger Academy
 - ```--``` comments out everything after
 - ```+``` URL encoding for simple space ' ' 
 - ```%20``` Same as above ... URL encoding for simple space ' ' 
-- ```%27``` means this bad boy '
+- ```%27``` means this bad boy ```'```
 
 Payloads that just worked somewhere:
 ```
