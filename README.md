@@ -4,4 +4,5 @@
 - [Dorking](https://github.com/phishinga/cheatSheets/blob/main/dorking.md)
 - [KQL](https://github.com/phishinga/cheatSheets/blob/main/kql.md)
 - [kubectl](https://github.com/phishinga/cheatSheets/blob/main/cubectl.md)
+- [burpSuite](https://github.com/phishinga/cheatSheets/blob/main/burpSuite.md)
  
