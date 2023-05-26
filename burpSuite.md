@@ -3,8 +3,10 @@ aka Notes from PortSwigger Academy
 
 ## SQLi
 
+- ```--``` comments out everything after
+
 ```
-'--
+'--  
 '+OR+1=1--
 ' OR 1=1 --
 OR 1=1 --
