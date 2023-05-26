@@ -4,6 +4,7 @@ aka Notes from PortSwigger Academy
 ## SQLi
 
 ```
+'--
 '+OR+1=1--
 ' OR 1=1 --
 OR 1=1 --
